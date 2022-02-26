@@ -1,0 +1,107 @@
+*,
+*:after,
+*:before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+:root
+    font-size: 20px
+    
+body
+    font-family: 'Work Sans', sans-serif
+    background: $light
+    padding-bottom: 3rem
+
+a
+    color: $dark
+    box-shadow: inset 0 -.75em 0 $primary
+    text-decoration: none
+    transition: .2s box-shadow ease
+    &:hover
+        box-shadow: inset 0 -1em 0 $primary
+        
+
+.container
+    width: calc( 100% - 2rem )
+    max-width: 500px
+    margin: 2rem auto
+    border: 3px solid $dark
+    box-shadow: 1rem 1rem 0 $primary
+    color: $dark
+    background: $white
+    position: relative
+    left: -.5rem
+
+h1
+    font-size: 1.5rem
+    padding: .5rem 2rem
+    font-weight: normal
+    border-bottom: 3px solid $dark
+
+
+b
+    font-weight: 500
+
+.padding
+    padding: 2rem
+    p
+        margin-bottom: 2rem
+
+.form-group
+    margin-bottom: 1.5rem
+    label
+        display: block
+        margin-bottom: 5px
+        font-weight: 500
+    input,
+    select
+        border: 2px solid $dark
+        border-radius: 0
+        display: block
+        width: 100%
+        padding: .5rem .75rem
+        font-size: inherit
+        background-color: $white
+        &.non-valid
+            border-color: $warning
+            + .validation
+                display: block
+    
+    select
+        appearance: none
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' stroke-width='1.5' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.25 5.5V18M12.25 18L6.25 12M12.25 18L18.25 12' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-position: calc(100% - .5rem) center
+        padding-right: 2rem
+
+    .validation
+        display: none
+        margin-top: 5px
+        font-size: .75rem
+        color: $warning
+
+button
+    font-size: inherit
+    display: block
+    padding: .5rem .75rem
+    width: 100%
+    background-color: $primary
+    border: 2px solid $dark
+    border-radius: 0
+    cursor: pointer
+    font-weight: 500
+    margin-top: 2.5rem
+    &:hover
+        background-color: $dark
+        color: $light
+
+footer
+    position: fixed
+    bottom: 0
+    width: 100vw
+    border-top: 3px solid $dark
+    text-align: center
+    padding: .3rem 1rem
+    font-size: .7rem
+    background: $light
