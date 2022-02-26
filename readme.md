@@ -9,6 +9,8 @@ Petit projecte nascut d'una necessitat puntual. Genera un [enllaç per a enviar 
 2. Triar el prefix del país
 3. Clicar al botó d'enviar el missatge
 
-[Enllaç al projecte](https://jomorespi.github.io/guatsaps-puntuals/index.html)
+## Enllaços
 
 Font original del selector dels prefixos per països: [Andy Jarrett - HTML for international calling coes](https://gist.github.com/andyj/7108917)
+
+[Enllaç al projecte](https://jomorespi.github.io/guatsaps-puntuals/index.html)
