@@ -1,4 +1,4 @@
-# guatsaps-puntuals
+# Guatsaps Puntuals
 Recurs ràpid per quan vols enviar un missatge per WhatsApp a algú de forma puntual i no tens motius per guardar el seu telèfon a l'agenda.
 
 Petit projecte nascut d'una necessitat puntual. Genera un [enllaç per a enviar missatges per WhatsApp](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/?lang=kk) a partir del número de telèfon introduit per l'usuari.
