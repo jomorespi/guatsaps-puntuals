@@ -5,12 +5,11 @@ Petit projecte nascut d'una necessitat puntual. Genera un [enllaç per a enviar 
 
 ## Instruccions d'ús
 
-1. Introduir el número de telèfon
-2. Triar el prefix del país
+1. Triar el prefix del país
+2. Introduir el número de telèfon
 3. Clicar al botó d'enviar el missatge
 
 ## Enllaços
 
-Font original del selector dels prefixos per països: [Andy Jarrett - HTML for international calling coes](https://gist.github.com/andyj/7108917)
-
-[Enllaç al projecte](https://jomorespi.github.io/guatsaps-puntuals/index.html)
+- Font original del selector dels prefixos per països: [Andy Jarrett - HTML for international calling coes](https://gist.github.com/andyj/7108917)
+- [Enllaç al projecte](https://jomorespi.github.io/guatsaps-puntuals/index.html)
